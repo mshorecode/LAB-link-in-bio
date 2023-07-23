@@ -1,22 +1,16 @@
-body, html {
+* {
+	box-sizing: border-box;
+}
+
+body {
 	display: flex;
 	text-align: center;
 	justify-content: center;
-	background-color: slategray;
+	background-image: url('./images/blurred.jpg');
 	color: white;
-	height: 100%;
 }
 
-/* * {
-	box-sizing: border-box;
-} */
 
-
-
-#profile-info {
-	display: flex;
-	flex-direction: column;
-}
 
 #profile-pic {
 	background-image: url('images/profile.jpeg');
@@ -27,9 +21,36 @@ body, html {
 	margin: 100px auto 20px;
 }
 
+#name {
+	font-size: 1.75rem;
+	text-shadow: 1px 1px 2px black;
+}
+
+#contact {
+	font-size: 1.25rem;
+	text-shadow: 1px 1px 2px black;
+}
+
+#twitter, #linkedin {
+	height: 50px;
+	width: 50px;
+}
+
+#socials {
+	display: flex;
+	gap: 0.75rem;
+	justify-content: center;
+	margin: 1.5rem;
+
+}
+
+.buttons {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 2rem;
+}
+
 .btn {
-	width: 800px;
-	height: 50%;
-	border-radius: 0%;
-	margin: -100px 0 0 0;
+	width: 500px;
 }
