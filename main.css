@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+	font-weight: 600;
 }
 
 body {
@@ -10,7 +11,11 @@ body {
 	color: white;
 }
 
-
+a {
+	text-decoration: none;
+	color: white;
+	/* font-weight: 600; */
+}
 
 #profile-pic {
 	background-image: url('images/profile.jpeg');
